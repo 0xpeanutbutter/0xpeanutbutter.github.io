@@ -1,5 +1,6 @@
 body{
     background-image: url('img/onepi.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
 
 }
