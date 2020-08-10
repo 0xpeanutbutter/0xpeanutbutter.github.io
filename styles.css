@@ -1,6 +1,14 @@
-body{
+.header{
     background-image: url('img/onepi.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
+    max-height: 300px;
+    height: 100%;
 
+}
+.port{
+    border-radius: 50%;
+}
+.row{
+    height: 50px;
 }
