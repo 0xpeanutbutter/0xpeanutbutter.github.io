@@ -19,9 +19,9 @@
     text-align: center;
 }
 .port {
-    border-radius: 50%;
-    border: 6px #ccc solid;
-    width: 16%;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
 }
 .icon-row {
     margin: 15px auto;
@@ -41,7 +41,7 @@
     color: #ca5549;
   }
 .wrapper {
-    background-image: url('img/onepi.jpg');
+    background-image: url('https://i.pinimg.com/originals/c4/9b/8f/c49b8f9114a46b53f0c5a254e9df62b4.jpg');
     width: 100%;
     height: 100vh;
     animation: animation 150s linear infinite ;
