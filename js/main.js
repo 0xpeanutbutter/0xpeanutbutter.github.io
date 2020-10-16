@@ -8,11 +8,11 @@ function help(){
   </tr>\
   <tr>\
     <td>about</td>\
-    <td>Everything you ever wanted to know about me</td>\
+    <td>about me</td>\
   </tr>\
   <tr>\
     <td>contact</td>\
-    <td>How to get in touch with me</td>\
+    <td>how to contact me</td>\
   </tr>\
   <tr>\
     <td>links</td>\
@@ -20,7 +20,7 @@ function help(){
   </tr>\
   <tr>\
     <td>skills</td>\
-    <td>This section is only for recruiters</td>\
+    <td>Languages Im comfortable with</td>\
   </tr>\
   <tr>\
     <td>cv</td>\

@@ -66,7 +66,7 @@ a{
 
 @media(max-width:1024px){
   #sidebar h1{
-    font-size: 20vw;
+    font-size: 100px;
   }
 }
 
