@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Omar's portfolio</title>
-        <link rel="icon" href="https://icons8.com/icon/12635/code">
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Indie+Flower'>
-        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-<body>
-    <div class="wrapper">
-        <div class="ship float-ease">
-            <div class="fixed-content">
-                <img class="port" src="img/dp.jpeg">
-                <hr>
-                <h2><strong>Umar Farooq</strong></h2>     
-                <div class="icon-row">
-                    <a href="https://github.com/omar1024"><i class="fa fa-github"></i></a>
-                    <a href="https://medium.com/@umarfarooqa16"><i class="fa fa-medium"></i></a>
-                    <a href="https://www.linkedin.com/in/omar1024/"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://twitter.com/peanetbutter1"><i class="fa fa-twitter"></i></a>
-                </div>
-            </div>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Omar</title>
+    <link rel="icon" href="src/icon.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div id="sidebar">
+      <center>
+        <img id="port" src="src/profile.jpg">
+        <p><strong>Umar Farooq</strong></p>
+        <p>Undergrad at Computer Science Engineering Department</p>
+        <p>NIT Calicut</p>
+      </center>
+      </div>
+
+      <div id="terminal">
+        <div id="injected"></div>
+        <div id="userInput">
+          <input type="text" value="root@omar's website:~$" id="prompt" size = "28" readonly="readonly">
+          <input type="text" id="txtBox" onkeypress="commandProcessor(event)" placeholder="Enter help for commands list" size = "40" autofocus>
         </div>
-        
+      </div>
+
     </div>
-</body>
+
+  </body>
 </html>

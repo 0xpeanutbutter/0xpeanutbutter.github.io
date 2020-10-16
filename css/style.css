@@ -1,0 +1,130 @@
+body{
+  margin : auto;
+  font-family: "Lucida Console", "Lucida Sans Unicode", "Courier New";
+  color:white;
+  background-color: #1d1f21;
+}
+
+a{
+  color:inherit;
+  font-weight: inherit;
+  text-decoration: inherit;
+}
+
+#sidebar{
+  width: 100%;
+  margin: 5%;
+  margin-top: 0.5%;
+  text-align: justify;
+}
+
+#port {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
+
+#terminal{
+  margin:5%;
+}
+
+@media(min-width:1024px){
+  #sidebar{
+    flex-basis: 20%;
+    margin:2%;
+    margin-top:0.5%;
+    height: 100%;
+  }
+
+  #terminal{
+    flex-basis: 72%;
+    flex-direction: row;
+    margin-top:2%;
+    margin-right: 2%;
+    margin-left: auto;
+    margin-bottom: auto;
+  }
+
+  body{
+      overflow-x:hidden;
+  }
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#sidebar h1{
+  color: #58d49f;
+  font-size: 52px;
+}
+
+@media(max-width:1024px){
+  #sidebar h1{
+    font-size: 10vw;
+  }
+}
+
+#profile{
+  max-width: 100%;
+}
+
+#intro{
+  color: #de935f;
+  text-align: justify;
+}
+
+#prompt{
+  float:left;
+  width:auto;
+  font-size: 22px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  background-color: #1d1f21;
+  color: #f0c674;
+  border: none;
+}
+
+#txtBox{
+  float:left;
+  width:auto;
+  font-size: 22px;
+  vertical-align: middle;
+  background-color: #1d1f21;
+  color: #b5bd68;
+  border: none;
+  box-sizing: border-box;
+}
+
+#Copyright{
+  color: #373b41;
+  margin:2%;
+}
+
+#injected{
+  font-size: 15px;
+  color: white;
+  text-align: justify;
+  margin-top:2%;
+}
+
+#injected ul{
+  list-style: none;
+}
+
+#injected li, th, td {
+    padding-right: 45px;
+    padding-left: 25px;
+    padding-top: 7px;
+
+    text-align: left;
+}
+
+#userInput{
+  margin-top: 20px;
+}
