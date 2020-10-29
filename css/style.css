@@ -1,8 +1,8 @@
 body{
   margin : auto;
-  font-family: "Lucida Console", "Lucida Sans Unicode", "Courier New";
+  font: 1.3rem Inconsolata, monospace;
   color:white;
-  background-color: #1d1f21;
+  background-color: black;
 }
 
 a{
@@ -27,7 +27,10 @@ a{
 
 
 #terminal{
-  margin:5%;
+  margin:0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 @media(min-width:1024px){
@@ -85,7 +88,7 @@ a{
   font-size: 22px;
   vertical-align: middle;
   box-sizing: border-box;
-  background-color: #1d1f21;
+  background-color: black;
   color: #f0c674;
   border: none;
 }
@@ -95,15 +98,10 @@ a{
   width:auto;
   font-size: 22px;
   vertical-align: middle;
-  background-color: #1d1f21;
+  background-color: #0e1a1b;
   color: #b5bd68;
-  border: none;
+  border: #f0c674;
   box-sizing: border-box;
-}
-
-#Copyright{
-  color: #373b41;
-  margin:2%;
 }
 
 #injected{
