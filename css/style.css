@@ -9,6 +9,7 @@ a{
   color:inherit;
   font-weight: inherit;
   text-decoration: inherit;
+  text-shadow: 2px 2px #53a148;
 }
 
 #sidebar{
@@ -91,6 +92,7 @@ a{
   background-color: black;
   color: #f0c674;
   border: none;
+  font: 1.3rem Inconsolata, monospace;
 }
 
 #txtBox{
@@ -102,6 +104,8 @@ a{
   color: #b5bd68;
   border: #f0c674;
   box-sizing: border-box;
+  font: 1.3rem Inconsolata, monospace;
+
 }
 
 #injected{
