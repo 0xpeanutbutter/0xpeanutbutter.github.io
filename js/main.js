@@ -49,6 +49,7 @@ function cv(){
   return "<span style=\"color:#8abeb7;\"><h2>CV:</h2></span><p>\tDownload from <a href=\"src/cv.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a>.</p>";
 }
 
+
 function links(){
   return "<span style=\"color: #b5bd68;\"><h2>Links:</h2></span><ul>\
   <li><a href=\"https://www.linkedin.com/in/omar1024/\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
@@ -84,8 +85,8 @@ function commandProcessor(e){
       document.getElementById('injected').innerHTML=skills();
     }else if (txtInput=="links") {
       document.getElementById('injected').innerHTML=links();
-    }else{
-      document.getElementById('injected').innerHTML = help();
+    }else {
+      document.getElementById('injected').innerHTML = 'Keyword doesnt exist! Have you tried help';
     }
 
     //Clear input text box
