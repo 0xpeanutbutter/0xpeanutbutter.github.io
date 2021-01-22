@@ -1,9 +1,8 @@
 body{
-  margin : auto;
-  font: 1.3rem Inconsolata, monospace;
+  font: 1.8rem Inconsolata, monospace;
   color:white;
   background-color: black;
-  font-size: medium;
+  font-size: large;
 }
 
 a{
@@ -17,7 +16,6 @@ a{
   width: 100%;
   margin: 5%;
   margin-top: 0.5%;
-  text-align: justify;
 }
 
 #port {
@@ -111,9 +109,6 @@ a{
 
 #injected{
   font-size: 15px;
-  color: white;
-  text-align: justify;
-  margin-top:2%;
 }
 
 #injected ul{
