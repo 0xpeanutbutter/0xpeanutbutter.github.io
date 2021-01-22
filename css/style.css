@@ -3,13 +3,14 @@ body{
   font: 1.3rem Inconsolata, monospace;
   color:white;
   background-color: black;
+  font-size: medium;
 }
 
 a{
   color:inherit;
   font-weight: inherit;
   text-decoration: inherit;
-  text-shadow: 2px 2px #53a148;
+  text-shadow: 2px 2px #0a3a06;
 }
 
 #sidebar{
@@ -130,3 +131,4 @@ a{
 #userInput{
   margin-top: 20px;
 }
+
