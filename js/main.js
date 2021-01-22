@@ -54,7 +54,6 @@ function links(){
   return "<span style=\"color: #b5bd68;\"><h2>Links:</h2></span><ul>\
   <li><a href=\"https://www.linkedin.com/in/omar1024/\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
   <li><a href=\"https://www.github.com/omar1024\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
-  <li><a href=\"https://www.twitter.com/pnutbutter_jar\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
   </ul>";
 }
 
