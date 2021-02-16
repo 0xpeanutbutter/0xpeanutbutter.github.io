@@ -42,7 +42,7 @@ function skills(){
 }
 
 function about(){
-  return "<p>Hey myself Omar.Im a frontend Dev.I help spiderman to build web</p>";
+  return "<p>Hey myself Omar.Im a Web Dev.I help spiderman to build web</p>";
 }
 
 function cv(){

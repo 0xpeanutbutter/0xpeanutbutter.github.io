@@ -7,9 +7,8 @@ body{
 
 a{
   color:inherit;
-  font-weight: inherit;
-  text-decoration: inherit;
-  text-shadow: 2px 2px #0a3a06;
+  text-decoration: none;
+  text-shadow: 2px 2px #0d5a08;
 }
 
 #sidebar{
@@ -63,7 +62,6 @@ a{
 }
 
 #sidebar h1{
-  color: #1f7550;
   font-size: 52px;
 }
 
@@ -119,7 +117,6 @@ a{
     padding-right: 45px;
     padding-left: 25px;
     padding-top: 7px;
-
     text-align: left;
 }
 
