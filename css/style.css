@@ -1,17 +1,17 @@
-body{
+body {
   font: 1.8rem Inconsolata, monospace;
-  color:white;
+  color: white;
   background-color: black;
   font-size: large;
 }
 
-a{
-  color:inherit;
+a {
+  color: inherit;
   text-decoration: none;
   text-shadow: 2px 2px #0d5a08;
 }
 
-#sidebar{
+#sidebar {
   width: 100%;
   margin: 5%;
   margin-top: 0.5%;
@@ -25,103 +25,113 @@ a{
   border: 2px solid #8d8989;
 }
 
-
-#terminal{
-  margin:0 auto;
+#terminal {
+  margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
-@media(min-width:1024px){
-  #sidebar{
-    flex-basis: 20%;
-    margin:2%;
-    margin-top:0.5%;
+@media (min-width: 1024px) {
+  #sidebar {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+    margin: 2%;
+    margin-top: 0.5%;
     height: 100%;
   }
-
-  #terminal{
-    flex-basis: 72%;
-    flex-direction: row;
-    margin-top:2%;
+  #terminal {
+    -ms-flex-preferred-size: 72%;
+        flex-basis: 72%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 2%;
     margin-right: 2%;
     margin-left: auto;
     margin-bottom: auto;
   }
-
-  body{
-      overflow-x:hidden;
+  body {
+    overflow-x: hidden;
   }
 }
 
-.container{
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-#sidebar h1{
+#sidebar h1 {
   font-size: 52px;
 }
 
-@media(max-width:1024px){
-  #sidebar h1{
+@media (max-width: 1024px) {
+  #sidebar h1 {
     font-size: 100px;
   }
 }
 
-#profile{
+#profile {
   max-width: 100%;
 }
 
-#intro{
+#intro {
   color: #de935f;
   text-align: justify;
 }
 
-#prompt{
-  float:left;
-  width:auto;
+#prompt {
+  float: left;
+  width: auto;
   font-size: 22px;
   vertical-align: middle;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: black;
   color: #f0c674;
   border: none;
   font: 1.3rem Inconsolata, monospace;
 }
 
-#txtBox{
-  float:left;
-  width:auto;
+#txtBox {
+  float: left;
+  width: auto;
   font-size: 22px;
   vertical-align: middle;
   background-color: #0e1a1b;
   color: #b5bd68;
   border: #f0c674;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font: 1.3rem Inconsolata, monospace;
-
 }
 
-#injected{
+#injected {
   font-size: 15px;
 }
 
-#injected ul{
+#injected ul {
   list-style: none;
 }
 
 #injected li, th, td {
-    padding-right: 45px;
-    padding-left: 25px;
-    padding-top: 7px;
-    text-align: left;
+  padding-right: 45px;
+  padding-left: 25px;
+  padding-top: 7px;
+  text-align: left;
 }
 
-#userInput{
+#userInput {
   margin-top: 20px;
 }
-
+/*# sourceMappingURL=style.css.map */
