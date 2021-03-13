@@ -38,7 +38,7 @@ function contact(){
 }
 
 function skills(){
-  return "<h2><span style=\"color:#81b2be;\">Skills:</span></h2><ul><li>C</li><li>Python</li><li>JS</li><li>Vuejs</li></ul>";
+  return "<h2><span style=\"color:#81b2be;\">Skills:</span></h2><ul><li>C/Cpp</li><li>Python</li><li>JS</li><li>GO</li></ul>";
 }
 
 function about(){
@@ -60,16 +60,10 @@ function links(){
 
 function commandProcessor(e){
 
-  //Check if the enter key is pressed
   if(e.keyCode == 13){
 
-    //Clear the area where info will be printed
     document.getElementById('injected').innerHTML= "";
-
-    //Get user input
     var txtInput = document.getElementById('txtBox').value;
-
-    //Select what info to print according to command
     if(txtInput == "help"){
       document.getElementById('injected').innerHTML=help();
     }else if (txtInput=="all") {
@@ -88,7 +82,31 @@ function commandProcessor(e){
       document.getElementById('injected').innerHTML = 'Keyword doesnt exist! Have you tried help';
     }
 
-    //Clear input text box
     document.getElementById('txtBox').value= "";
   }
+}
+
+function getBrowserSize(){
+  var w, h;
+
+    if(typeof window.innerWidth != 'undefined')
+    {
+     w = window.innerWidth; //other browser
+     h = window.innerHeight;
+    } 
+    else if(typeof(document.documentElement) != 'undefined' && typeo(document.documentElement.clientWidth) != 'undefined' && document.documentElement.clientWidth != 0) 
+    {
+     w =  document.documentElement.clientWidth; 
+     h = document.documentElement.clientHeight;
+    }
+    else{
+     w = document.body.clientWidth; 
+     h = document.body.clientHeight;
+    }
+  return {'width':w, 'height': h};
+}
+
+if(parseInt(getBrowserSize().width) < 1024){
+  document.getElementById('injected').innerHTML=about() + "\n\n\n" + skills() + "\n\n\n" + links() + "\n\n\n" + contact() + "\n\n\n" + cv();
+  alert("Use desktop for full functionalities of this website. You can proceed for now though :)")
 }

@@ -77,7 +77,10 @@ a {
 
 @media (max-width: 1024px) {
   #sidebar h1 {
-    font-size: 100px;
+    font-size: 150px;
+  }
+  #userInput {
+    display: none;
   }
 }
 
