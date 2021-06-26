@@ -1,0 +1,12 @@
+{
+    "name": "Omar",
+    "description": "Simple Portfolio for virtual presence",
+    "icons": [{
+      "src": "src/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+    "display": "standalone",
+    "background_color": "#f2b632",
+    "theme_color": "#9ed1dd"
+  }

@@ -2,15 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Omar</title>
-    <link rel="icon" href="src/icon.png">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="src/icon.png" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="manifest" href="manifest.json" />
   </head>
   <body>
     <div class="container">
       <div id="sidebar">
         <center>
-          <img id="port" src="src/profile.jpg">
+          <img id="port" src="src/profile.jpg" />
           <p><strong>Umar Farooq</strong></p>
           <p>Undergrad at Computer Science Engineering Department</p>
           <p>NIT Calicut</p>
@@ -18,11 +19,23 @@
         </center>
       </div>
       <div id="terminal">
-        <div id="injected"> 
-        </div>
+        <div id="injected"></div>
         <div id="userInput">
-          <input type="text" value="root@omar's website:~$" id="prompt" size = "28" readonly="readonly">
-          <input type="text" id="txtBox" onkeypress="commandProcessor(event)" placeholder="Enter help for commands list" size = "40" autofocus>
+          <input
+            type="text"
+            value="root@omar's website:~$"
+            id="prompt"
+            size="28"
+            readonly="readonly"
+          />
+          <input
+            type="text"
+            id="txtBox"
+            onkeypress="commandProcessor(event)"
+            placeholder="Enter help for commands list"
+            size="40"
+            autofocus
+          />
         </div>
       </div>
     </div>
