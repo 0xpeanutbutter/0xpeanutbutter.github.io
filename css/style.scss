@@ -29,8 +29,7 @@ body{
   #terminal{
     margin:0 auto;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;    
   }
   
   @media(min-width:1024px){
@@ -112,6 +111,7 @@ body{
   
   #injected{
     font-size: 15px;
+    padding: 5%;
   }
   
   #injected ul{
