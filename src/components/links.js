@@ -16,9 +16,6 @@ const Links = () => {
             Stopstalk
           </a>
         </li>
-        <li>
-          <a href="/#/blog">Blog(new)*</a>
-        </li>
       </p>
     </div>
   );

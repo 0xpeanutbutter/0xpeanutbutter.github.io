@@ -1,6 +1,7 @@
 body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: beige;
+  font-family: "Noto Serif", serif;
+  background-color: rgb(7, 7, 7);
+  color: aliceblue;
 }
 #port {
   border-radius: 50%;
@@ -8,6 +9,10 @@ body {
   height: 120px;
   position: relative;
   border: 2px solid #8d8989;
+}
+a {
+  text-decoration: solid;
+  color: cyan;
 }
 
 li {
