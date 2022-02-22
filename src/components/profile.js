@@ -7,8 +7,8 @@ const Profile = () => {
       <p>
         <strong>Umar Farooq</strong>
       </p>
-      <p>Undergrad at Computer Science Engineering Department</p>
-      <p>NIT Calicut '22</p>
+      <p> Final Year Undergrad at Computer Science Engineering Department</p>
+      <p>NIT Calicut'22</p>
     </div>
   );
 };

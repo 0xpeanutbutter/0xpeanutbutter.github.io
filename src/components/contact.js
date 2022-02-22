@@ -5,7 +5,13 @@ const Contact = () => {
     <div>
       <p>
         Email :{" "}
-        <a href="mailto:omar1024@protonmail.com">omar1024@protonmail.com</a>
+        <a
+          href="mailto:omar1024@protonmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          omar1024@protonmail.com
+        </a>
       </p>
     </div>
   );

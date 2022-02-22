@@ -1,7 +1,8 @@
 body {
-  font-family: "Noto Serif", serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   background-color: rgb(7, 7, 7);
   color: aliceblue;
+  font-size: medium;
 }
 #port {
   border-radius: 50%;
@@ -21,5 +22,7 @@ li {
 }
 
 hr {
-  width: 50%;
+  width: 70%;
+  height: 1px;
+  background: #000;
 }
