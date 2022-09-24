@@ -6,11 +6,11 @@ const Contact = () => {
       <p>
         Email :{" "}
         <a
-          href="mailto:omar1024@protonmail.com"
+          href="mailto:fatar@vmware.com"
           target="_blank"
           rel="noreferrer"
         >
-          omar1024@protonmail.com
+          fatar@vmware.com
         </a>
       </p>
     </div>

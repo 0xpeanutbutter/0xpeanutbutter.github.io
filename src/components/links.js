@@ -11,7 +11,7 @@ const Links = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Blog
+            Blog*
           </a>
         </li>
         <li>

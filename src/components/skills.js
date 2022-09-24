@@ -4,12 +4,13 @@ const Skills = () => {
   return (
     <div>
       <p>
-        Skills :<li>Java</li>
+        Skills :<li>C#</li>
+        <li>SQL</li>
+        <li>Java</li>
         <li>C</li>
         <li>Python</li>
         <li>JS</li>
         <li>Golang</li>
-        <li>SQL</li>
       </p>
     </div>
   );
