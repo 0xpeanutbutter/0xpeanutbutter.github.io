@@ -1,0 +1,32 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  font-size: medium;
+}
+#port {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  border: 2px solid #8d8989;
+}
+a {
+  text-decoration: solid;
+  color: cyan;
+}
+
+li {
+  display: inline-flex;
+  padding: 10px;
+}
+
+hr {
+  width: 50%;
+  height: 1px;
+  background: #000;
+}
+
+.profile {
+  line-height: 2;
+}

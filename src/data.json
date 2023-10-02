@@ -1,0 +1,20 @@
+{
+  "skills": {
+    "programmingLanguages": ["C#", "JavaScript", "Python", "Java", "Golang"],
+    "framework": ["React", ".NET", "Node.js", "Express", "Django"],
+    "database": ["MongoDB", "MySQL", "PostgreSQL"]
+  },
+  "contact": {
+    "email": "mailto:umarfarooqa16@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/omar1024/",
+    "github": "github.com/omar1024"
+  },
+  "profile": {
+    "name": "O'mar",
+    "bio": "For the editor is dark and full of errors"
+  },
+  "about": {
+    "description": "Full time software developer, part-time overthinker. I like trekking and making 'thats what she said' jokes",
+    "experience": ".NET Developer at UEM WorkSpaceOne, VMware | NITC Alumni"
+  }
+}
